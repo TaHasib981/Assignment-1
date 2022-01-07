@@ -1,0 +1,119 @@
+body{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px;
+}
+/* top baner */
+.parent-1{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.focuse-div{
+    border-left: 5px solid rgb(125, 25, 226);
+}
+.focuse-div span{
+    color: rgb(125, 25, 226);
+}
+.focuse-div h1{
+    margin-left: 10px;
+}
+.fcus-batton{
+    background-color: rgb(125, 25, 226);
+    color: white;
+    border-radius: 10px;
+}
+.child-1 img{
+    width: 50%;
+}
+.child-1{
+    width: 50%;
+}
+ 
+ 
+/* missoit part */
+.all-section3{
+    display: flex;
+}
+.img-mission img{
+    width: 100%;
+}
+.my-mission h2{
+    text-align: center;
+    color: rebeccapurple;
+}
+.first-mission{
+    width: 30%;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: seashell;
+}
+ 
+ 
+ 
+ 
+/* about section */
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.flex-div{
+    display: flex;
+}
+.develope1 img{
+    width: 70%;
+}
+ 
+ 
+ 
+ 
+/* our comunity styling */
+.last-section{
+    display: flex;
+}
+.global1{
+    width: 50%;
+}
+.global1 img{
+    width: 50%;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+/* my skill */
+.aboutMe h1{
+    text-align: center;
+    color: rebeccapurple;
+    margin-top: 50px;
+}
+.coronaSection{
+    display: flex;
+}
+.coronaImg{
+    width: 50%;
+}
+.coronaImg img{
+    width: 50%;
+    text-align: center;
+}
+ 
+ 
+ 
+/* footer section */
+footer{
+    background-color: rgba(26, 21, 21, 0.959);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+footer h1{
+    font-family: cursive;
+}
