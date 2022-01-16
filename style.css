@@ -167,3 +167,57 @@ footer h1{
 .footerP{
     text-align: center;
 }
+
+/* medio Quiry 
+===================================================== */
+ @media only screen and (max-width:668px) {
+     .parent-1{
+         border:3px solid red;
+         width:350px;
+         display: flex;
+         flex-direction: column;
+     }
+     .child-1{
+         width: 350px;
+        
+     }
+     .child-1 img{
+       
+         width: 80%;
+     }
+     .fcus-paragraph{
+      display: block;
+     }
+     .all-section3{
+        
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .first-mission-1, .first-mission-2, .first-mission-3{
+         margin-left: -15px;
+         width: 300px;
+     }
+     .container,{
+         width: 350px;
+      
+     }
+     .flex-div, .last-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .develope1{
+         width: 350px;
+         margin: auto;
+     }
+     .develope2, .global1{
+        width: 350px;
+        margin: auto;
+     }
+     .develope1 img{
+        width: 100%;
+     }
+    .globals{
+        margin-right:-80px;
+    }
+
+ }
